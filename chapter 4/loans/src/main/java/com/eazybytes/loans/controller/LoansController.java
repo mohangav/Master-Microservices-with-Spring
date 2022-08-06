@@ -1,9 +1,10 @@
 package com.eazybytes.loans.controller;
 
-import java.util.List;
-
 import com.eazybytes.loans.config.LoansServiceConfig;
+import com.eazybytes.loans.model.Customer;
+import com.eazybytes.loans.model.Loans;
 import com.eazybytes.loans.model.Properties;
+import com.eazybytes.loans.repository.LoansRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
@@ -13,9 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.eazybytes.loans.model.Customer;
-import com.eazybytes.loans.model.Loans;
-import com.eazybytes.loans.repository.LoansRepository;
+import java.util.List;
 
 @RestController
 public class LoansController {
