@@ -2,6 +2,14 @@ version: "3.8"
 
 services:
 
+  configserver:
+    image: eazybytes/configserver:latest
+    mem_limit: 700m
+    ports:
+      - "8071:8071"
+    networks:
+      - eazybank
+
   accounts:
     image: eazybytes/accounts:latest
     mem_limit: 700m
