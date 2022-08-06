@@ -4,7 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22ebef5b-ea3c-47c1-8ca2-64564859d75d" name="Changes" comment="" />
+    <list default="true" id="22ebef5b-ea3c-47c1-8ca2-64564859d75d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/eazytbytes/accounts/config/AccountsServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/eazytbytes/accounts/model/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eazybytes/cards/config/CardsServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eazybytes/cards/model/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loans/src/main/java/com/eazybytes/loans/config/LoansServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loans/src/main/java/com/eazybytes/loans/model/Properties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/accounts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/accounts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/src/main/java/com/eazytbytes/accounts/AccountsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/eazytbytes/accounts/AccountsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/src/main/java/com/eazytbytes/accounts/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/eazytbytes/accounts/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/target/classes/com/eazytbytes/accounts/AccountsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/target/classes/com/eazytbytes/accounts/controller/AccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/target/classes/com/eazytbytes/accounts/model/Accounts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/target/classes/com/eazytbytes/accounts/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/target/classes/com/eazytbytes/accounts/repository/AccountsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eazybytes/cards/controller/CardsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eazybytes/cards/controller/CardsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/cards/controller/CardsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eazybytes/cards/controller/CardsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/src/main/java/com/eaztbytes/loans/LoansApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/src/main/java/com/eazybytes/loans/LoansApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/src/main/java/com/eazybytes/loans/controller/LoansController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/src/main/java/com/eazybytes/loans/controller/LoansController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/classes/META-INF/maven/com.eaztbytes/loans/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/classes/META-INF/maven/com.eaztbytes/loans/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/classes/com/eaztbytes/loans/LoansApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/classes/com/eazybytes/loans/controller/LoansController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/target/classes/com/eazybytes/loans/controller/LoansController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/classes/com/eazybytes/loans/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/target/classes/com/eazybytes/loans/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/classes/com/eazybytes/loans/model/Loans.class" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/target/classes/com/eazybytes/loans/model/Loans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/classes/com/eazybytes/loans/repository/LoansRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/target/classes/com/eazybytes/loans/repository/LoansRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/test-classes/com/eaztbytes/loans/LoansApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/target/test-classes/com/eaztbytes/loans/LoansApplicationTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +50,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
