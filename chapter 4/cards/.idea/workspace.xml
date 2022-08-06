@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ebef5b-ea3c-47c1-8ca2-64564859d75d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../loans/src/test/java/com/eaztbytes/loans/LoansApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/src/test/java/com/eazybytes/loans/LoansApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loans/target/test-classes/com/eaztbytes/loans/LoansApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/src/test/java/com/eazybytes/loans/LoansApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/src/test/java/com/eazybytes/loans/LoansApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/classes/com/eazybytes/loans/controller/LoansController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/target/classes/com/eazybytes/loans/controller/LoansController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/classes/com/eazybytes/loans/model/Loans.class" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/target/classes/com/eazybytes/loans/model/Loans.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
