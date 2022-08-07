@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ebef5b-ea3c-47c1-8ca2-64564859d75d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/eazytbytes/accounts/model/Cards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/eazytbytes/accounts/model/CustomerDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/eazytbytes/accounts/model/Loans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/eazytbytes/accounts/service/client/CardsFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/eazytbytes/accounts/service/client/LoansFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/accounts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/accounts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/src/main/java/com/eazytbytes/accounts/AccountsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/eazytbytes/accounts/AccountsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/src/main/java/com/eazytbytes/accounts/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/eazytbytes/accounts/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eazybytes/cards/CardsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eazybytes/cards/CardsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../loans/src/main/java/com/eazybytes/loans/LoansApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/src/main/java/com/eazybytes/loans/LoansApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eazybytes/cards/CardsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eazybytes/cards/CardsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
