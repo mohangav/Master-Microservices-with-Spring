@@ -13,3 +13,5 @@ docker-compose up
 docker-compose down
 
 docker image rm <imagename>
+
+docker push docker.io/[image-name]
