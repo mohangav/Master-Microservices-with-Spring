@@ -16,7 +16,7 @@ services:
     ports:
       - "8070:8070"
     networks:
-      - eazybank
+      - eazybank-network
     depends_on:
       - configserver
     deploy:
