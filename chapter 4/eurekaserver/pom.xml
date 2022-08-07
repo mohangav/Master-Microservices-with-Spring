@@ -66,10 +66,10 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<name>eazybytes/${project.artifactId}</name>
+						<!--<name>eazybytes/${project.artifactId}</name> -->
+						<name>mohangavandeoutlook/${project.artifactId}</name>
 					</image>
 				</configuration>
-
 			</plugin>
 		</plugins>
 	</build>
