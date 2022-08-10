@@ -16,7 +16,7 @@ services:
     ports:
       - "8070:8070"
     networks:
-      - eazybank-network
+      - eazybank-networkhttp://localhost:8071/accounts/actuator
     depends_on:
       - configserver
     deploy:
