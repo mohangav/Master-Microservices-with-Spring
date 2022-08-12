@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ebef5b-ea3c-47c1-8ca2-64564859d75d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../accounts/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/docker-compose-old.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/docker-compose/default/docker-composer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/docker-compose/default/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/docker-compose/dev/docker-composer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/docker-compose/dev/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/docker-compose/prod/docker-composer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/docker-compose/prod/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
