@@ -1,21 +1,17 @@
 package com.eazybytes.loans.controller;
 
-import java.util.List;
-
 import com.eazybytes.loans.config.LoansServiceConfig;
+import com.eazybytes.loans.model.Customer;
+import com.eazybytes.loans.model.Loans;
 import com.eazybytes.loans.model.Properties;
+import com.eazybytes.loans.repository.LoansRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import com.eazybytes.loans.model.Customer;
-import com.eazybytes.loans.model.Loans;
-import com.eazybytes.loans.repository.LoansRepository;
+import java.util.List;
 
 @RestController
 public class LoansController {
@@ -27,7 +23,8 @@ public class LoansController {
 	LoansServiceConfig loansConfig;
 	
 	@PostMapping("/myLoans")
-	public List<Loans> getLoans(@RequestBody Customer customer) {
+	public List<Loans> getLoans(@RequestHeader("eazybank-correlation-id") String correlationid,
+								@RequestBody Customer customer) {
 		
 		List<Loans> loansList =  loansRepository.findByCustomerIdOrderByStartDtDesc(customer.getCustomerId());
 		

@@ -34,6 +34,10 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>com.h2database</groupId>
@@ -84,7 +88,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<name>eazybytes/${project.artifactId}</name>
+					<!--	<name>eazybytes/${project.artifactId}</name> -->
+						<name>mohangavandeoutlook/${project.artifactId}</name>
 					</image>
 				</configuration>
 			</plugin>
